@@ -37,7 +37,7 @@ try:
         left_over_after_nickels = left_over_after_dimes % 5
 
         #pennies
-        pennies = left_over_after_nickels // 1
+        pennies = left_over_after_nickels
 
      #OUTPUT-----------------------------------------------------------------
      #The number of quarters, dimes, nickels, pennies.
@@ -66,4 +66,3 @@ try:
 except ValueError:  # If user enters a non-integer, print an error and exit.
     print("Invalid input.  Please re-run, and try again with an integer between 1 and 99.")
     quit()
-  
